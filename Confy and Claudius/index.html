@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Confy and Claudius Project</title>
+        <link rel="stylesheet" href="styles.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    </head>
+   <body>
+    
+    <nav class="navbar">
+        <div class="nav-logo">Confy and Claudius Project</div>
+        <header class="company-header">
+        <img src="Pictures/IMG-20250619-WA0028.jpg" alt="Logo">
+        <h1 class="company-name">Confy and Claudius Project</h1>
+        <p class="tagline">Marvellous work is our priority</p>
+        </header>
+        <div class="hamburger" onClick="toggleMenu()">=</div>
+        <ul class="nav-links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="content">
+            <h1>Marvelous work is our priority</h1>
+            <p>With a commitment to quality and precision, we bring your project vision to life with expertise and dedication</p>
+            <button onClick="scrollToSection('about')">Explore More</button>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>Confy and Claudiaus Project, established in 2013, is a leading construction company offering a wide range of services including civil construction, plumbing, building renovation, road works in Braamfischer Phase 2, Soweto. We are dedicated to providing superior service, priotizing high-quality customer care, and offering competitive pricing to ensure client satisfaction and project success</p>
+    </section>
+
+    <section id="services" class="section light">
+        <h2>Our Services</h2>
+        <div class="service-box">
+            <img src="Pictures/Capture2.PNG" alt="Building Construction">
+            <h3>Building Construction</h3>
+            <ul>
+                <li>Building Renovation</li>
+                <li>Brickwork</li>
+                <li>Roof & Foundation Work</li>
+            </ul>
+        </div>
+        <div class="service-box">
+            <img src="Pictures/Capture7.PNG" alt="Road Works">
+            <img src="Pictures/Capture8.PNG" alt="Road Works">
+            <h3>Road Works</h3>
+            <ul>
+                <li>Paving</li>
+                <li>Concrete Kerbing</li>
+            </ul>
+        </div>
+        <div class="service-box">
+            <img src="Pictures/Capture9.PNG" alt="Plumbing">
+            <h3>Plumbing</h3>
+            <ul>
+                <li>Sewer Network</li>
+                <li>V-Drain Systems</li>
+                <li>Storm Water Solutions</li>
+            </ul>
+        </div>
+        <div class="service-box">
+            <img src="Pictures/Capture10.PNG" alt="Building Renovation">
+            <h3>Building Renovation</h3>
+            <ul>
+                <li>Household Renovations</li>
+                <li>Industrial & Commercial Renovations</li>
+            </ul>
+        </div>
+        <div class="service-box">
+            <img src="Pictures/Capture12.PNG" alt="Building Interior">
+            <img src="Pictures/Capture6.PNG" alt="Building Interior">
+            <h3>Building Interior</h3>
+            <ul>
+                <li>Plastering</li>
+                <li>Painting</li>
+                <li>Tilling and celling</li>
+            </ul>
+        </div>
+        <div class="service-box">
+            <img src="Pictures/Capture4.PNG" alt="Steel Work">
+            <img src="Pictures/Capture5.PNG" alt="Steel Work">
+            <h3>Steel Work</h3>
+            <ul>
+                <li>Building steel structures</li>
+                <li>Slab and foundation reinforces</li>
+                <li>Carport and steel fencing</li>
+            </ul>
+        </div>
+        <div class="service-box">
+            <img src="Pictures/Capture3.PNG" alt="Civil Construction">
+            <h3>Civil Construction</h3>
+            <ul>
+                <li>Ground Preparation</li>
+                <li>Concrete Slabs</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p>Tel Number: 065 927 5642</p>
+        <p>Email: <a href="mailto:confyandclaudius.project@gmail.com">confyandclaudius.project@gmail.com</a></p>
+        <p>Location: Braamfischer Phase 2, Braamfischerville, Soweto, 1875, South Africa</p>
+         <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.2802075301336!2d27.84105337459511!3d-26.23526006340927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95aee5ae1d83c7%3A0xa3e8d6d2d25383de!2sBraamfischer%20Phase%202%2C%20Soweto%2C%201875!5e0!3m2!1sen!2sza!4v1713874634243!5m2!1sen!2sza" 
+                width="100%" 
+                height="350" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+    </section>
+
+
+    <footer>
+        <p>&copy;2025 Confy and Claudius. All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
